@@ -63,6 +63,9 @@ friends.forEach(methmeth('alert', '!!!!', '1!1!111'));
 
 
 ## Why?
+
+![](https://cloud.githubusercontent.com/assets/574696/2713734/90997534-c4eb-11e3-9ff7-99ac669feeb8.jpg)
+
 Perhaps you're already using [Lo-Dash](http://lodash.com), [Underscore.js](http://underscorejs.org), or another utility library. This should not supplement those libraries, and definitely cannot replace. This is better suited towards applications that don't want to carry the weight and/or functionality of such libraries, and just want something simple and modular.
 
 
