@@ -1,0 +1,21 @@
+{
+  "name": "methmeth",
+  "version": "0.3.0",
+  "author": "Stephen Sawchuk <sawchuk@gmail.com> (http://sawchuk.me)",
+  "description": "Just a helper for calling a method out of an object.",
+  "repository": "stephenplusplus/methmeth",
+  "scripts": {
+    "browser": "a=$npm_package_name; browserify -r ./index:$a -s $a index.js -o browser.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "prop",
+    "property",
+    "pluck"
+  ],
+  "devDependencies": {
+    "browserify": "^3.0.0"
+  }
+}

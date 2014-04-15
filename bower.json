@@ -1,0 +1,23 @@
+{
+  "name": "methmeth",
+  "main": "browser.js",
+  "authors": [
+    "Stephen Sawchuk <sawchuk@gmail.com>"
+  ],
+  "description": "Just a helper for calling a method out of an object.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "method",
+    "array"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "index.js",
+    "package.json",
+    "readme.md"
+  ]
+}
