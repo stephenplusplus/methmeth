@@ -1,6 +1,8 @@
 # methmeth
 > call a method on an object in an [].prototype callback.
 
+> *also see [propprop](https://github.com/stephenplusplus/propprop).*
+
 
 #### Before
 ```js
