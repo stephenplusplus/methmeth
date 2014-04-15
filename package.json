@@ -1,6 +1,6 @@
 {
   "name": "methmeth",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "author": "Stephen Sawchuk <sawchuk@gmail.com> (http://sawchuk.me)",
   "description": "Just a helper for calling a method out of an object.",
   "repository": "stephenplusplus/methmeth",
