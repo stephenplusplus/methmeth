@@ -9,7 +9,7 @@
 var friends = [
   {
     name: 'passy',
-    hobby: 'clay',
+    hobby: 'carrots',
     alert: function () {
       alert(this.name + ' likes ' + this.hobby);
     }
