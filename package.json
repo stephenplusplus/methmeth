@@ -1,6 +1,6 @@
 {
   "name": "methmeth",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Stephen Sawchuk <sawchuk@gmail.com> (http://stephenplusplus.com)",
   "description": "Execute a method out from an object.",
   "repository": "stephenplusplus/methmeth",
