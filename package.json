@@ -1,21 +1,29 @@
 {
   "name": "methmeth",
   "version": "0.1.0",
-  "author": "Stephen Sawchuk <sawchuk@gmail.com> (http://sawchuk.me)",
-  "description": "Just a helper for calling a method out of an object.",
+  "author": "Stephen Sawchuk <sawchuk@gmail.com> (http://stephenplusplus.com)",
+  "description": "Execute a method out from an object.",
   "repository": "stephenplusplus/methmeth",
-  "scripts": {
-    "browser": "a=$npm_package_name; browserify -r ./index:$a -s $a index.js -o browser.js"
-  },
+  "license": "MIT",
+  "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "license"
   ],
   "keywords": [
     "prop",
     "property",
-    "pluck"
+    "pluck",
+    "method",
+    "meth",
+    "execute",
+    "array",
+    "iterator"
   ],
   "devDependencies": {
-    "browserify": "^3.0.0"
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
