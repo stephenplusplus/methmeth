@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports = function (methodName) {
-  var extraArguments = [].slice.call(arguments, 1);
+  var initialArguments = [].slice.call(arguments, 1);
 
   return function (item) {
-    if (methodName in item) {
-      return item[methodName].apply(item, extraArguments);
+    if (typeof item[methodName] === 'function') {
+      var invokedArguments = [].slice.call(arguments, 1);
+      return item[methodName].apply(item, initialArguments.concat(invokedArguments));
     }
   };
 };

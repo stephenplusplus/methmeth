@@ -32,15 +32,27 @@ describe('meth', function() {
     assert.deepEqual(people.map(meth('getName', 'Mr.')), expectedNames);
   });
 
+  it('should apply extra arguments', function() {
+    var expectedName = 'Mr. Stephen II';
+
+    var results = meth('getName', 'Mr.')({
+      getName: function(prefix, suffix) {
+        return prefix + ' Stephen ' + suffix;
+      }
+    }, 'II');
+
+    assert.deepEqual(results, expectedName);
+  });
+
   it('should maintain `this` context', function() {
     var people = [
       {
         name: 'Stephen',
-        getName: function() { return this.name }
+        getName: function() { return this.name; }
       },
       {
         name: 'Dave',
-        getName: function() { return this.name }
+        getName: function() { return this.name; }
       }
     ];
 
